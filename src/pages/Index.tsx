@@ -19,6 +19,9 @@ const Index = () => {
               <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
                 О работе
               </a>
+              <Link to="/anketa" className="text-sm font-medium hover:text-primary transition-colors">
+                Анкета
+              </Link>
               <Link to="/contacts">
                 <Button variant="outline" size="sm">
                   Контакты
